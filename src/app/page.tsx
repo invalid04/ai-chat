@@ -3,7 +3,9 @@ import {env} from '@/env'
 export default function Home() {
   return (
     <main>
-      hi
+      <div className='pb-[200px] pt-4 md:pt-10'>
+        <h1>hi</h1>
+      </div>
     </main>
   );
 }
