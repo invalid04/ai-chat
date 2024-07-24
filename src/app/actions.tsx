@@ -20,7 +20,7 @@ export type UIState = Array<{
 }>
 
 export const AI = createAI({
-    initialAIState: [],
-    initialUIState: [],
+    initialAIState: [] as AIState,
+    initialUIState: [] as UIState,
     actions: {}
 })
