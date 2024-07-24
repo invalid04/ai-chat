@@ -6,10 +6,10 @@ export const env = createEnv({
         GOOGLE_GEMINI_KEY: z.string().min(1),
     },
     client: {
-        EXAMPLE: z.string()
+        NEXT_PUBLIC_EXAMPLE: z.string()
     },
     runtimeEnv: {
         GOOGLE_GEMINI_KEY: process.env.GOOGLE_GEMINI_KEY,
-        EXAMPLE: process.env.EXAMPLE,
+        NEXT_PUBLIC_EXAMPLE: process.env.EXAMPLE,
     },
 })
